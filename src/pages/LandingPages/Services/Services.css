@@ -1,0 +1,47 @@
+.mainHoverTransition {
+  padding: 10px;
+}
+
+.hoverTransition {
+  background-color: #fcfcfe;
+  border-radius: 5px;
+  padding-top: 25px;
+  height: 100%;
+  display: block;
+  background: linear-gradient(to bottom, #00b0ee 50%, white 50%);
+  background-size: 100% 200%;
+  background-position: bottom left;
+  transition: all 0.4s ease-out;
+}
+
+.hoverTransition:hover {
+  background-position: top left;
+}
+
+.hoverTransition:hover .hoverTransitionText {
+  color: white;
+}
+.hoverTransition:hover .hoverTransitionTextDetails {
+  color: white;
+}
+.hoverTransitionText {
+  text-align: center;
+  padding-top: 20px;
+}
+.hoverTransitionTextDetails {
+  text-align: center;
+  margin-left: 25px !important;
+  margin-right: 25px !important;
+  font-size: medium !important;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.iconsStyling {
+  color: #fff;
+  width: 30px !important;
+  height: 30px !important;
+  margin: 20px;
+}
+/* .hoverTransitionText:hover {
+  color: white;
+} */
